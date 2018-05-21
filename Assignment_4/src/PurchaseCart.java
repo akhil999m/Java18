@@ -8,7 +8,7 @@ public class PurchaseCart implements Shopping, DispalyItems {
 	// private ShoppingList[] lists;
 
 	public PurchaseCart() {
-		lists = new ArrayList<ShoppingList>(7);
+		lists = new ArrayList<ShoppingList>(7); // Using Arraylist
 	}
 
 	public void set_List(ArrayList<ShoppingList> list) {
